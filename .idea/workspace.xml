@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="105a7246-ba6f-4059-9344-1a6567ce0283" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/controllers/api/api_v1/menu.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/sys_authority.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/sys_base_menu.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/routers/router_v1/menu.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/routers/router_v1/user.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/api/v1/card.go" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/api/api_v1/card.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/api/v1/check_form/user.go" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/api/api_v1/check_form/user.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/api/v1/user.go" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/api/api_v1/user.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/user.go" beforeDir="false" afterPath="$PROJECT_DIR$/models/user.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routers/v1/router.go" beforeDir="false" afterPath="$PROJECT_DIR$/routers/router.go" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Go File" />
+      </list>
+    </option>
+  </component>
+  <component name="GOROOT" path="/usr/local/Cellar/go/1.14/libexec" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GoLibraries">
+    <option name="indexEntireGoPath" value="false" />
+    <option name="urls">
+      <list>
+        <option value="file://$USER_HOME$/project/go" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1ca2llzwl0a4xh0Ax3Bb2oSB4vv" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultGoTemplateProperty" value="Go File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="configurable.Global.GOPATH.is.expanded" value="true" />
+    <property name="configurable.Project.GOPATH.is.expanded" value="true" />
+    <property name="go.import.settings.migrated" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/models" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="inlay.hints.go" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/routers" />
+      <recent name="$PROJECT_DIR$/middleware" />
+      <recent name="$PROJECT_DIR$/middleware/jwt" />
+      <recent name="$PROJECT_DIR$/controllers/api/v1" />
+      <recent name="$PROJECT_DIR$/common/pkg" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/models" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="go build web-gin" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="web-gin" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <filePath value="$PROJECT_DIR$/main.go" />
+      <package value="web-gin" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Go Build.go build web-gin" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VgoProject">
+    <integration-enabled>true</integration-enabled>
+    <proxy>https://goproxy.cn</proxy>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="-1214" y="347" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1591612814562">
+      <screen x="-1920" y="-72" width="1920" height="981" />
+    </state>
+    <state x="-1214" y="347" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.23.1440.877/-1920.-72.1920.981@-1920.-72.1920.981" timestamp="1591612814562" />
+    <state width="1398" height="206" key="GridCell.Tab.0.bottom" timestamp="1592131870360">
+      <screen x="0" y="23" width="1440" height="806" />
+    </state>
+    <state width="1398" height="205" key="GridCell.Tab.0.bottom/0.23.1440.801/-1920.-66.1920.1057@0.23.1440.801" timestamp="1590917918723" />
+    <state width="1398" height="205" key="GridCell.Tab.0.bottom/0.23.1440.801/-1920.-72.1920.1057@0.23.1440.801" timestamp="1591006449064" />
+    <state width="1398" height="205" key="GridCell.Tab.0.bottom/0.23.1440.804/-1920.-66.1920.1057@0.23.1440.804" timestamp="1590926662855" />
+    <state width="1398" height="205" key="GridCell.Tab.0.bottom/0.23.1440.804/-1920.-72.1920.1057@0.23.1440.804" timestamp="1591006798938" />
+    <state width="1398" height="205" key="GridCell.Tab.0.bottom/0.23.1440.806/-1920.-72.1920.1057@0.23.1440.806" timestamp="1591006535940" />
+    <state width="1398" height="206" key="GridCell.Tab.0.bottom/0.23.1440.806@0.23.1440.806" timestamp="1592131870360" />
+    <state width="1398" height="207" key="GridCell.Tab.0.bottom/0.23.1440.808/-1920.-72.1920.1057@0.23.1440.808" timestamp="1590753509436" />
+    <state width="1398" height="205" key="GridCell.Tab.0.bottom/0.23.1440.814/-1920.-72.1920.1057@-1920.-72.1920.1057" timestamp="1591095428735" />
+    <state width="1398" height="205" key="GridCell.Tab.0.bottom/0.23.1440.877/-1920.-66.1920.981@0.23.1440.877" timestamp="1590920261149" />
+    <state width="1398" height="206" key="GridCell.Tab.0.bottom/0.23.1440.877/-1920.-72.1920.981@-1920.-72.1920.981" timestamp="1591790723075" />
+    <state width="1398" height="205" key="GridCell.Tab.0.bottom/0.23.1440.877/-1920.-72.1920.981@0.23.1440.877" timestamp="1591011477772" />
+    <state width="1398" height="206" key="GridCell.Tab.0.center" timestamp="1592131870359">
+      <screen x="0" y="23" width="1440" height="806" />
+    </state>
+    <state width="1398" height="205" key="GridCell.Tab.0.center/0.23.1440.801/-1920.-66.1920.1057@0.23.1440.801" timestamp="1590917918722" />
+    <state width="1398" height="205" key="GridCell.Tab.0.center/0.23.1440.801/-1920.-72.1920.1057@0.23.1440.801" timestamp="1591006449062" />
+    <state width="1398" height="205" key="GridCell.Tab.0.center/0.23.1440.804/-1920.-66.1920.1057@0.23.1440.804" timestamp="1590926662854" />
+    <state width="1398" height="205" key="GridCell.Tab.0.center/0.23.1440.804/-1920.-72.1920.1057@0.23.1440.804" timestamp="1591006798937" />
+    <state width="1398" height="205" key="GridCell.Tab.0.center/0.23.1440.806/-1920.-72.1920.1057@0.23.1440.806" timestamp="1591006535939" />
+    <state width="1398" height="206" key="GridCell.Tab.0.center/0.23.1440.806@0.23.1440.806" timestamp="1592131870359" />
+    <state width="1398" height="207" key="GridCell.Tab.0.center/0.23.1440.808/-1920.-72.1920.1057@0.23.1440.808" timestamp="1590753509436" />
+    <state width="1398" height="205" key="GridCell.Tab.0.center/0.23.1440.814/-1920.-72.1920.1057@-1920.-72.1920.1057" timestamp="1591095428735" />
+    <state width="1398" height="205" key="GridCell.Tab.0.center/0.23.1440.877/-1920.-66.1920.981@0.23.1440.877" timestamp="1590920261148" />
+    <state width="1398" height="206" key="GridCell.Tab.0.center/0.23.1440.877/-1920.-72.1920.981@-1920.-72.1920.981" timestamp="1591790723074" />
+    <state width="1398" height="205" key="GridCell.Tab.0.center/0.23.1440.877/-1920.-72.1920.981@0.23.1440.877" timestamp="1591011477771" />
+    <state width="1398" height="206" key="GridCell.Tab.0.left" timestamp="1592131870359">
+      <screen x="0" y="23" width="1440" height="806" />
+    </state>
+    <state width="1398" height="205" key="GridCell.Tab.0.left/0.23.1440.801/-1920.-66.1920.1057@0.23.1440.801" timestamp="1590917918721" />
+    <state width="1398" height="205" key="GridCell.Tab.0.left/0.23.1440.801/-1920.-72.1920.1057@0.23.1440.801" timestamp="1591006449062" />
+    <state width="1398" height="205" key="GridCell.Tab.0.left/0.23.1440.804/-1920.-66.1920.1057@0.23.1440.804" timestamp="1590926662854" />
+    <state width="1398" height="205" key="GridCell.Tab.0.left/0.23.1440.804/-1920.-72.1920.1057@0.23.1440.804" timestamp="1591006798937" />
+    <state width="1398" height="205" key="GridCell.Tab.0.left/0.23.1440.806/-1920.-72.1920.1057@0.23.1440.806" timestamp="1591006535939" />
+    <state width="1398" height="206" key="GridCell.Tab.0.left/0.23.1440.806@0.23.1440.806" timestamp="1592131870359" />
+    <state width="1398" height="207" key="GridCell.Tab.0.left/0.23.1440.808/-1920.-72.1920.1057@0.23.1440.808" timestamp="1590753509435" />
+    <state width="1398" height="205" key="GridCell.Tab.0.left/0.23.1440.814/-1920.-72.1920.1057@-1920.-72.1920.1057" timestamp="1591095428734" />
+    <state width="1398" height="205" key="GridCell.Tab.0.left/0.23.1440.877/-1920.-66.1920.981@0.23.1440.877" timestamp="1590920261148" />
+    <state width="1398" height="206" key="GridCell.Tab.0.left/0.23.1440.877/-1920.-72.1920.981@-1920.-72.1920.981" timestamp="1591790723073" />
+    <state width="1398" height="205" key="GridCell.Tab.0.left/0.23.1440.877/-1920.-72.1920.981@0.23.1440.877" timestamp="1591011477770" />
+    <state width="1398" height="206" key="GridCell.Tab.0.right" timestamp="1592131870359">
+      <screen x="0" y="23" width="1440" height="806" />
+    </state>
+    <state width="1398" height="205" key="GridCell.Tab.0.right/0.23.1440.801/-1920.-66.1920.1057@0.23.1440.801" timestamp="1590917918722" />
+    <state width="1398" height="205" key="GridCell.Tab.0.right/0.23.1440.801/-1920.-72.1920.1057@0.23.1440.801" timestamp="1591006449063" />
+    <state width="1398" height="205" key="GridCell.Tab.0.right/0.23.1440.804/-1920.-66.1920.1057@0.23.1440.804" timestamp="1590926662855" />
+    <state width="1398" height="205" key="GridCell.Tab.0.right/0.23.1440.804/-1920.-72.1920.1057@0.23.1440.804" timestamp="1591006798938" />
+    <state width="1398" height="205" key="GridCell.Tab.0.right/0.23.1440.806/-1920.-72.1920.1057@0.23.1440.806" timestamp="1591006535939" />
+    <state width="1398" height="206" key="GridCell.Tab.0.right/0.23.1440.806@0.23.1440.806" timestamp="1592131870359" />
+    <state width="1398" height="207" key="GridCell.Tab.0.right/0.23.1440.808/-1920.-72.1920.1057@0.23.1440.808" timestamp="1590753509436" />
+    <state width="1398" height="205" key="GridCell.Tab.0.right/0.23.1440.814/-1920.-72.1920.1057@-1920.-72.1920.1057" timestamp="1591095428735" />
+    <state width="1398" height="205" key="GridCell.Tab.0.right/0.23.1440.877/-1920.-66.1920.981@0.23.1440.877" timestamp="1590920261149" />
+    <state width="1398" height="206" key="GridCell.Tab.0.right/0.23.1440.877/-1920.-72.1920.981@-1920.-72.1920.981" timestamp="1591790723075" />
+    <state width="1398" height="205" key="GridCell.Tab.0.right/0.23.1440.877/-1920.-72.1920.981@0.23.1440.877" timestamp="1591011477771" />
+    <state width="1398" height="77" key="GridCell.Tab.1.bottom" timestamp="1591615340319">
+      <screen x="-1920" y="-72" width="1920" height="981" />
+    </state>
+    <state width="1398" height="77" key="GridCell.Tab.1.bottom/0.23.1440.877/-1920.-72.1920.981@-1920.-72.1920.981" timestamp="1591615340319" />
+    <state width="1398" height="77" key="GridCell.Tab.1.center" timestamp="1591615340318">
+      <screen x="-1920" y="-72" width="1920" height="981" />
+    </state>
+    <state width="1398" height="77" key="GridCell.Tab.1.center/0.23.1440.877/-1920.-72.1920.981@-1920.-72.1920.981" timestamp="1591615340318" />
+    <state width="1398" height="77" key="GridCell.Tab.1.left" timestamp="1591615340317">
+      <screen x="-1920" y="-72" width="1920" height="981" />
+    </state>
+    <state width="1398" height="77" key="GridCell.Tab.1.left/0.23.1440.877/-1920.-72.1920.981@-1920.-72.1920.981" timestamp="1591615340317" />
+    <state width="1398" height="77" key="GridCell.Tab.1.right" timestamp="1591615340319">
+      <screen x="-1920" y="-72" width="1920" height="981" />
+    </state>
+    <state width="1398" height="77" key="GridCell.Tab.1.right/0.23.1440.877/-1920.-72.1920.981@-1920.-72.1920.981" timestamp="1591615340319" />
+    <state x="221" y="65" key="SettingsEditor" timestamp="1592038410446">
+      <screen x="0" y="23" width="1440" height="806" />
+    </state>
+    <state x="221" y="65" key="SettingsEditor/0.23.1440.806@0.23.1440.806" timestamp="1592038410446" />
+    <state x="100" y="123" width="1240" height="677" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1591010709015">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="100" y="123" width="1240" height="677" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.23.1440.877/-1920.-72.1920.981@0.23.1440.877" timestamp="1591010709015" />
+    <state x="375" y="189" width="845" height="538" key="find.popup" timestamp="1592028237435">
+      <screen x="0" y="23" width="1440" height="806" />
+    </state>
+    <state x="375" y="189" width="689" height="472" key="find.popup/0.23.1440.804/-1920.-66.1920.1057@0.23.1440.804" timestamp="1590926307663" />
+    <state x="375" y="189" width="845" height="538" key="find.popup/0.23.1440.806@0.23.1440.806" timestamp="1592028237435" />
+    <state x="-1420" y="130" width="919" height="577" key="find.popup/0.23.1440.877/-1920.-72.1920.981@-1920.-72.1920.981" timestamp="1591611900570" />
+    <state x="375" y="204" width="689" height="515" key="find.popup/0.23.1440.877/-1920.-72.1920.981@0.23.1440.877" timestamp="1591011511151" />
+    <state x="456" y="264" width="670" height="556" key="search.everywhere.popup" timestamp="1592028210945">
+      <screen x="0" y="23" width="1440" height="806" />
+    </state>
+    <state x="456" y="264" width="670" height="556" key="search.everywhere.popup/0.23.1440.806@0.23.1440.806" timestamp="1592028210945" />
+    <state x="-1312" y="221" width="670" height="676" key="search.everywhere.popup/0.23.1440.877/-1920.-72.1920.981@-1920.-72.1920.981" timestamp="1591613272267" />
+  </component>
+</project>

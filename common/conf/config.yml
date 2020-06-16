@@ -1,0 +1,29 @@
+#config.yml
+appname: web-gin
+app:
+  prefixurl: http://127.0.0.1:8001
+  runtimerootpath: runtime/
+server:
+  runmode:      debug
+  httpport:     8001
+  readtimeout:  60
+  writetimeout: 60
+database:
+  type: mysql
+  user: root
+  password: zby199310
+  host: 127.0.0.1:3306
+  name: blog
+  tableprefix: bl_
+log:
+  logsavepath: logs/
+  logsavename: log
+  logfileext: log
+  timeformat: 20060102
+rabbitmq:
+  user: guest
+  password: guest
+  host: 127.0.0.1:5672
+export:
+  exportsavepath: export/
+  exportfilenamesuffix: .xlsx
