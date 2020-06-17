@@ -51,7 +51,11 @@ func Register(c *gin.Context) {
 	}
 	response.ResponseOk(http.StatusOK, pkg.SUCCESS, "注册成功")
 }
-
+// @Summary 用户登录
+// @Produce  json
+// @Param data body check_form.LoginForm true "用户登录接口"
+// @Success 200 {string} string "{"status":true,"returnCode":200,"msg":"OK",data":{}}"
+// @Router /v1/user/login [post]
 func Login(c *gin.Context) {
 	var (
 		response = pkg.Gin{C: c}

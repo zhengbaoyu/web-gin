@@ -26,8 +26,8 @@ func GetDB() {
 	DB.DB().SetMaxIdleConns(10)  //用于设置闲置的连接数
 	DB.DB().SetMaxOpenConns(100) //用于设置最大打开的连接数
 
-	DB.Callback().Create().Replace("gorm:update_time_stamp", CreatedAtCallback)
-	DB.Callback().Update().Replace("gorm:update_time_stamp", UpdatedAtCallback)
+	//DB.Callback().Create().Replace("gorm:update_time_stamp", CreatedAtCallback)
+	//DB.Callback().Update().Replace("gorm:update_time_stamp", UpdatedAtCallback)
 }
 
 func CreatedAtCallback(scope *gorm.Scope) {

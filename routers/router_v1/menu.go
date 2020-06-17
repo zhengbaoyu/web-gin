@@ -9,7 +9,8 @@ import (
 func InitMenuRouter(Router *gin.RouterGroup) (R gin.IRoutes) {
 	MenuRouter := Router.Group("menu").Use(middleware.AuthJWT())
 	{
-		MenuRouter.GET("getMenuList", api_v1.GetMenuList)           // 分页获取基础menu列表
+		MenuRouter.GET("menuList", api_v1.GetMenuList) // 分页获取基础menu列表
+		MenuRouter.POST("addMenu", api_v1.AddMenu)     // 新增菜单
 	}
 	return MenuRouter
 }

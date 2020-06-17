@@ -15,4 +15,8 @@ const (
 	ERR_GET_USER                   = 1009
 	ERR_GET_USER_NULL              = 1010
 	ERR_DOWNLOAD_FAIL              = 3000
+	ERR_GET_MENU_LIST              = 4001
+	ERR_ADD_MENU_LIST              = 4002
+	ERR_ADD_MENU_EXIST_NAME        = 4003
+	ERR_ADD_MENU_EXIST_TITLE       = 4004
 )

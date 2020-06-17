@@ -15,6 +15,10 @@ var MsgFlags = map[int]string{
 	ERR_GET_USER:                   "获取用户信息失败",
 	ERR_GET_USER_NULL:              "用户不存在",
 	ERR_DOWNLOAD_FAIL:              "下载失败",
+	ERR_GET_MENU_LIST:              "获取功能列表失败",
+	ERR_ADD_MENU_LIST:              "添加功能列表失败",
+	ERR_ADD_MENU_EXIST_NAME:        "存在重复name，请修改name",
+	ERR_ADD_MENU_EXIST_TITLE:       "存在重复title，请修改title",
 }
 
 func GetMsg(code int) string {
