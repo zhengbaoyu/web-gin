@@ -5,12 +5,114 @@
         "license": {}
     },
     "paths": {
+        "/v1/menu/add": {
+            "post": {
+                "produces": [
+                    "application/json"
+                ],
+                "summary": "新增权限功能",
+                "parameters": [
+                    {
+                        "description": "新增权限功能",
+                        "name": "data",
+                        "in": "body",
+                        "required": true,
+                        "schema": {
+                            "$ref": "#/definitions/check_form.AddMenu"
+                        }
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "{\"status\":true,\"returnCode\":200,\"msg\":\"OK\",data\":{}}",
+                        "schema": {
+                            "type": "string"
+                        }
+                    }
+                }
+            }
+        },
+        "/v1/menu/delete/:id": {
+            "delete": {
+                "produces": [
+                    "application/json"
+                ],
+                "summary": "删除权限菜单",
+                "parameters": [
+                    {
+                        "type": "string",
+                        "description": "权限功能ID",
+                        "name": "id",
+                        "in": "query",
+                        "required": true
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "{\"status\":true,\"returnCode\":200,\"msg\":\"OK\",data\":{}}",
+                        "schema": {
+                            "type": "string"
+                        }
+                    }
+                }
+            }
+        },
         "/v1/menu/list": {
             "get": {
                 "produces": [
                     "application/json"
                 ],
                 "summary": "获取权限功能列表",
+                "responses": {
+                    "200": {
+                        "description": "{\"status\":true,\"returnCode\":200,\"msg\":\"OK\",data\":{}}",
+                        "schema": {
+                            "type": "string"
+                        }
+                    }
+                }
+            }
+        },
+        "/v1/menu/update/:id": {
+            "put": {
+                "produces": [
+                    "application/json"
+                ],
+                "summary": "修改权限菜单",
+                "parameters": [
+                    {
+                        "type": "string",
+                        "description": "权限功能ID",
+                        "name": "id",
+                        "in": "query",
+                        "required": true
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "{\"status\":true,\"returnCode\":200,\"msg\":\"OK\",data\":{}}",
+                        "schema": {
+                            "type": "string"
+                        }
+                    }
+                }
+            }
+        },
+        "/v1/menu/view/:id": {
+            "get": {
+                "produces": [
+                    "application/json"
+                ],
+                "summary": "获取权限功能详情",
+                "parameters": [
+                    {
+                        "type": "string",
+                        "description": "权限功能ID",
+                        "name": "id",
+                        "in": "query",
+                        "required": true
+                    }
+                ],
                 "responses": {
                     "200": {
                         "description": "{\"status\":true,\"returnCode\":200,\"msg\":\"OK\",data\":{}}",
@@ -50,6 +152,35 @@
         }
     },
     "definitions": {
+        "check_form.AddMenu": {
+            "type": "object",
+            "properties": {
+                "component": {
+                    "type": "string"
+                },
+                "hidden": {
+                    "type": "integer"
+                },
+                "icon": {
+                    "type": "string"
+                },
+                "name": {
+                    "type": "string"
+                },
+                "parentId": {
+                    "type": "string"
+                },
+                "path": {
+                    "type": "string"
+                },
+                "sort": {
+                    "type": "integer"
+                },
+                "title": {
+                    "type": "string"
+                }
+            }
+        },
         "check_form.LoginForm": {
             "type": "object",
             "properties": {

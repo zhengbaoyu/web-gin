@@ -1,4 +1,23 @@
 definitions:
+  check_form.AddMenu:
+    properties:
+      component:
+        type: string
+      hidden:
+        type: integer
+      icon:
+        type: string
+      name:
+        type: string
+      parentId:
+        type: string
+      path:
+        type: string
+      sort:
+        type: integer
+      title:
+        type: string
+    type: object
   check_form.LoginForm:
     properties:
       password:
@@ -10,6 +29,39 @@ info:
   contact: {}
   license: {}
 paths:
+  /v1/menu/add:
+    post:
+      parameters:
+      - description: 新增权限功能
+        in: body
+        name: data
+        required: true
+        schema:
+          $ref: '#/definitions/check_form.AddMenu'
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: '{"status":true,"returnCode":200,"msg":"OK",data":{}}'
+          schema:
+            type: string
+      summary: 新增权限功能
+  /v1/menu/delete/:id:
+    delete:
+      parameters:
+      - description: 权限功能ID
+        in: query
+        name: id
+        required: true
+        type: string
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: '{"status":true,"returnCode":200,"msg":"OK",data":{}}'
+          schema:
+            type: string
+      summary: 删除权限菜单
   /v1/menu/list:
     get:
       produces:
@@ -20,6 +72,38 @@ paths:
           schema:
             type: string
       summary: 获取权限功能列表
+  /v1/menu/update/:id:
+    put:
+      parameters:
+      - description: 权限功能ID
+        in: query
+        name: id
+        required: true
+        type: string
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: '{"status":true,"returnCode":200,"msg":"OK",data":{}}'
+          schema:
+            type: string
+      summary: 修改权限菜单
+  /v1/menu/view/:id:
+    get:
+      parameters:
+      - description: 权限功能ID
+        in: query
+        name: id
+        required: true
+        type: string
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: '{"status":true,"returnCode":200,"msg":"OK",data":{}}'
+          schema:
+            type: string
+      summary: 获取权限功能详情
   /v1/user/login:
     post:
       parameters:
