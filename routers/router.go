@@ -33,5 +33,7 @@ func InitRouter() *gin.Engine {
 	router_v1.InitUserRouter(v1)
 	//权限菜单
 	router_v1.InitMenuRouter(v1)
+	//角色
+	router_v1.InitRoleRouter(v1)
 	return r
 }

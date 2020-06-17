@@ -22,10 +22,10 @@ type UpdateMenuService struct {
 
 func (m *UpdateMenuService) UpdateMenu() int {
 	//校验
-	var menu models.Menu
+	var menu models.Menus
 	//校验title和name是否已存在
 	if err := db.DB.Where("name = ? or title = ?", m.Name, m.Title).Where("id <> ?", m.Id).Find(&menu).Error; err != nil {
-		menuM := models.Menu{
+		menuM := models.Menus{
 			Model:     gorm.Model{ID: m.Id},
 			ParentId:  m.ParentId,
 			Path:      m.Path,

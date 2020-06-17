@@ -6,8 +6,8 @@ import (
 	"web-gin/repositorys/menu_repository"
 )
 
-func ViewMenu(id uint) (models.Menu, error) {
-	menuM := models.Menu{
+func ViewMenu(id uint) (models.Menus, error) {
+	menuM := models.Menus{
 		Model: gorm.Model{ID: id},
 	}
 	return menu_repository.View(menuM)

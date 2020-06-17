@@ -16,7 +16,7 @@ import (
 // @Router /v1/menu/list [get]
 func GetMenuList(c *gin.Context) {
 	response := pkg.Gin{C: c}
-	err, menuList := menu_service.GetInfoList()
+	err, menuList := menu_service.GetMenuList()
 	if err != nil {
 		response.ResponseErr(http.StatusInternalServerError, pkg.ERR_GET_MENU_LIST, err)
 		return
@@ -126,5 +126,11 @@ func UpdateMenu(c *gin.Context) {
 // @Router /v1/menu/delete/:id [delete]
 func DeleteMenu(c *gin.Context) {
 	response := pkg.Gin{C: c}
+	id, _ := strconv.Atoi(c.Param("id"))
+	errCode := menu_service.DeleteMenu(uint(id))
+	if errCode != pkg.SUCCESS {
+		response.ResponseErr(http.StatusInternalServerError, errCode, nil)
+		return
+	}
 	response.ResponseOk(http.StatusOK, pkg.SUCCESS, nil)
 }

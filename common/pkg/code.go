@@ -22,4 +22,7 @@ const (
 	ERR_VIEW_MENU_FAIL             = 4005
 	ERR_MENU_ID_NOT_EXIST          = 4006
 	ERR_UPDATE_MENU_FAIL           = 4007
+	ERR_DELETE_MENU_FAIL           = 4008
+	ERR_DELETE_MENU_EXIST          = 4009
+	ERR_GET_ROLE_LIST              = 6000
 )

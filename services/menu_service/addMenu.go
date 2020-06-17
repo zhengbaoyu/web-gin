@@ -19,10 +19,10 @@ type AddMenuService struct {
 }
 
 func (m *AddMenuService) AddMenu() int {
-	var menu models.Menu
+	var menu models.Menus
 	//校验title和name是否已存在
 	if err := db.DB.Where("name = ? or title = ?", m.Name, m.Title).Find(&menu).Error; err != nil {
-		addMenuData := models.Menu{
+		addMenuData := models.Menus{
 			ParentId:  m.ParentId,
 			Path:      m.Path,
 			Name:      m.Name,

@@ -104,6 +104,88 @@ paths:
           schema:
             type: string
       summary: 获取权限功能详情
+  /v1/role/add:
+    post:
+      parameters:
+      - description: 新增参数
+        in: body
+        name: data
+        required: true
+        schema:
+          $ref: '#/definitions/check_form.AddMenu'
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: '{"status":true,"returnCode":200,"msg":"OK",data":{}}'
+          schema:
+            type: string
+      summary: 新增角色
+  /v1/role/delete:
+    delete:
+      parameters:
+      - description: 角色ID
+        in: query
+        name: id
+        required: true
+        type: string
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: '{"status":true,"returnCode":200,"msg":"OK",data":{}}'
+          schema:
+            type: string
+      summary: 删除角色
+  /v1/role/list:
+    get:
+      parameters:
+      - description: 角色搜索参数
+        in: body
+        name: data
+        required: true
+        schema:
+          $ref: '#/definitions/check_form.AddMenu'
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: '{"status":true,"returnCode":200,"msg":"OK",data":{}}'
+          schema:
+            type: string
+      summary: 角色列表
+  /v1/role/update:
+    put:
+      parameters:
+      - description: 角色ID
+        in: query
+        name: id
+        required: true
+        type: string
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: '{"status":true,"returnCode":200,"msg":"OK",data":{}}'
+          schema:
+            type: string
+      summary: 修改角色
+  /v1/role/view:
+    get:
+      parameters:
+      - description: 角色ID
+        in: query
+        name: id
+        required: true
+        type: string
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: '{"status":true,"returnCode":200,"msg":"OK",data":{}}'
+          schema:
+            type: string
+      summary: 查看角色
   /v1/user/login:
     post:
       parameters:

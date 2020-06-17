@@ -22,6 +22,9 @@ var MsgFlags = map[int]string{
 	ERR_VIEW_MENU_FAIL:             "获取详情失败",
 	ERR_MENU_ID_NOT_EXIST:          "ID不存在",
 	ERR_UPDATE_MENU_FAIL:           "编辑权限功能失败",
+	ERR_DELETE_MENU_FAIL:           "删除失败",
+	ERR_DELETE_MENU_EXIST:          "当前权限功能存在子权限,禁止删除",
+	ERR_GET_ROLE_LIST:              "获取角色列表失败",
 }
 
 func GetMsg(code int) string {
