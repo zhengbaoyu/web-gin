@@ -21,3 +21,12 @@ func GetChildrenList(id uint, authority *models.Roles) error {
 	}
 	return nil
 }
+
+//添加
+func Add(roles models.Roles) error {
+	err := db.DB.Create(roles).Error
+	if err != nil {
+		return err
+	}
+	return nil
+}

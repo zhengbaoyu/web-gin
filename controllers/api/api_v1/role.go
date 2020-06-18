@@ -45,7 +45,25 @@ func GetRoleList(c *gin.Context) {
 // @Success 200 {string} string "{"status":true,"returnCode":200,"msg":"OK",data":{}}"
 // @Router /v1/role/add [post]
 func AddRole(c *gin.Context) {
-
+	var (
+		response = pkg.Gin{C: c}
+		form     check_form.AddRoleForm
+	)
+	httpCode, errCode := checkform.BindAndValidForm(c, &form)
+	if errCode != pkg.SUCCESS {
+		response.ResponseErr(httpCode, errCode, nil)
+		return
+	}
+	roleService := role_service.RoleAddService{
+		ParentId:      form.ParentId,
+		AuthorityName: form.AuthorityName,
+	}
+	AddErrCode := roleService.AddRole()
+	if AddErrCode != pkg.SUCCESS {
+		response.ResponseErr(http.StatusInternalServerError, AddErrCode, nil)
+		return
+	}
+	response.ResponseOk(http.StatusOK, pkg.SUCCESS, nil)
 }
 
 // @Summary 查看角色

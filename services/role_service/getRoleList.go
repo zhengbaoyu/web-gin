@@ -26,6 +26,7 @@ func (r *RoleListService) GetRoleList() (error, interface{}, int) {
 	}
 	return err, list, total
 }
+
 //查看子角色
 func findChildrenAuthority(authority *models.Roles) (err error) {
 	err = role_repository.GetChildrenList(authority.ID, authority)

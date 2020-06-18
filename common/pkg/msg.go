@@ -25,6 +25,8 @@ var MsgFlags = map[int]string{
 	ERR_DELETE_MENU_FAIL:           "删除失败",
 	ERR_DELETE_MENU_EXIST:          "当前权限功能存在子权限,禁止删除",
 	ERR_GET_ROLE_LIST:              "获取角色列表失败",
+	ERR_ADD_ROLE_FAIL:              "添加角色失败",
+	ERR_ROLE_NAME_EXIST:            "角色名称已存在",
 }
 
 func GetMsg(code int) string {

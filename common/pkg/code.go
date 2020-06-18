@@ -25,4 +25,6 @@ const (
 	ERR_DELETE_MENU_FAIL           = 4008
 	ERR_DELETE_MENU_EXIST          = 4009
 	ERR_GET_ROLE_LIST              = 6000
+	ERR_ADD_ROLE_FAIL              = 6001
+	ERR_ROLE_NAME_EXIST            = 6002
 )
